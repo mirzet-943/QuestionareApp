@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>Add user</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Full name</mat-label>
+    <input matInput [(ngModel)]="data.fullName">
+  </mat-form-field>
+  <mat-form-field>
+
+    <mat-label>Username</mat-label>
+    <input matInput [(ngModel)]="data.username">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Password</mat-label>
+    <input matInput [(ngModel)]="data.password">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>

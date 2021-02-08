@@ -1,0 +1,26 @@
+<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark navbar-fixed-top">
+  <div class="navbar-nav">
+      <a style="float: right;" *ngIf="currentUser" class="nav-item nav-link">{{currentUser.fullName}}</a>
+      <a class="nav-item nav-link" routerLink="/news">News</a>
+      <a *ngIf="isAdmin" class="nav-item nav-link" routerLink="/users">Users</a>
+      <a *ngIf="currentUser && !isAdmin" class="nav-item nav-link" routerLink="/articles">My articles</a>
+      <a *ngIf="currentUser" class="nav-item nav-link" (click)="logout()">Logout</a>
+      <a *ngIf="!currentUser"  class="nav-item nav-link" routerLink="/login">Login</a>
+  </div>
+</nav>
+
+<!-- main app container -->
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- credits -->
+<div class="text-center mt-4">
+  <p>
+      <a target="_top">News App DEMO</a>
+  </p>
+  <p>
+      <a target="_top">Mirzet Karahodžić</a>
+  </p>
+</div>

@@ -1,0 +1,53 @@
+<!--News Headlines header has a burger-style side-nav open button and a settings menu using a material icon-->
+<mat-toolbar color="primary">
+  <span>Users</span>
+  <span class="example-spacer"></span>
+  <input style="display: inline; float: right;" id="searchTerm" placeholder="Search" (keyup)="onKey($event)" required>
+  <button mat-mini-fab color="green" (click)="openAddDialog()" style="margin-left: 10px; display: inline; float: right;" aria-label="Add">
+    <mat-icon>add</mat-icon>  
+  </button>
+</mat-toolbar>
+
+<!--menu items listed as buttons.-->
+
+<!--sidenav component to add side content to a fullscreen app-->
+<table mat-table [dataSource]="mUsers" >
+
+  <ng-container matColumnDef="Date of creation">
+    <th mat-header-cell *matHeaderCellDef> Created at </th>
+    <td mat-cell *matCellDef="let element"> {{element.createdAt | date:dateFormat}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Fullname">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let element"> {{element.fullName}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Username">
+    <th mat-header-cell *matHeaderCellDef> Username </th>
+    <td mat-cell *matCellDef="let element"> {{element.username}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="Actions">
+    <th mat-header-cell *matHeaderCellDef> Actions </th>
+    <td mat-cell *matCellDef="let element"> 
+      <button (click)="deleteUser(element)" mat-mini-fab color="primary" aria-label="Delete">
+        <mat-icon>delete</mat-icon>
+      </button>
+      <button (click)="openDialog(element)" mat-mini-fab style="margin: 10px;" color="primary" aria-label="Delete">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns" style="text-align: center;"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>  
+<mat-sidenav-container class="example-container" >
+
+  <div *ngIf="isFetchingInProgress" class="loading-indicator">
+    <mat-spinner diameter="50" mode="indeterminate"></mat-spinner>
+  </div>
+
+</mat-sidenav-container>
+

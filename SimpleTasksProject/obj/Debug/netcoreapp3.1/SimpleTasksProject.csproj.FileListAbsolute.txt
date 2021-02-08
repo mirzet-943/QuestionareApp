@@ -1,0 +1,13 @@
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\bin\Debug\netcoreapp3.1\SimpleTasksProject.exe
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\bin\Debug\netcoreapp3.1\SimpleTasksProject.deps.json
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\bin\Debug\netcoreapp3.1\SimpleTasksProject.runtimeconfig.json
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\bin\Debug\netcoreapp3.1\SimpleTasksProject.runtimeconfig.dev.json
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\bin\Debug\netcoreapp3.1\SimpleTasksProject.dll
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\bin\Debug\netcoreapp3.1\SimpleTasksProject.pdb
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\obj\Debug\netcoreapp3.1\SimpleTasksProject.csprojAssemblyReference.cache
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\obj\Debug\netcoreapp3.1\SimpleTasksProject.AssemblyInfoInputs.cache
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\obj\Debug\netcoreapp3.1\SimpleTasksProject.AssemblyInfo.cs
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\obj\Debug\netcoreapp3.1\SimpleTasksProject.csproj.CoreCompileInputs.cache
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\obj\Debug\netcoreapp3.1\SimpleTasksProject.dll
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\obj\Debug\netcoreapp3.1\SimpleTasksProject.pdb
+C:\Users\mirze\source\repos\NewsAppSolution\SimpleTasksProject\obj\Debug\netcoreapp3.1\SimpleTasksProject.genruntimeconfig.cache

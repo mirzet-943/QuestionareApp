@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3hBVDjE73Kc2w50n3gYfL7f0r5iaBB6zitTjnWZS3Fn/+tUcyhtraeoZ20ZRGfQMjQ1opqYC2Hc5I4iuTx04hw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mirzet943\\Documents\\Visual Studio 2019\\Projects\\NewsApplication\\QuestionareApp\\NewsAppData\\NewsAppData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mirzet943\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

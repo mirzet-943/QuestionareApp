@@ -1,0 +1,39 @@
+<!--News Headlines header has a burger-style side-nav open button and a settings menu using a material icon-->
+<mat-toolbar color="primary">
+  <span>News Headlines</span>
+  <span class="example-spacer"></span>
+  <input style="display: inline; float: right;" id="searchTerm" placeholder="Search" (keyup)="onKey($event)" required>
+  <button mat-mini-fab color="green" *ngIf="isWriter && writerArticlesOnly" (click)="openAddDialog()" style="margin-left: 10px; display: inline; float: right;" aria-label="Add">
+    <mat-icon>add</mat-icon>  
+  </button>
+</mat-toolbar>
+
+
+<mat-sidenav-container class="example-container">
+
+  <mat-card class="example-card" style="width: 100%;"  *ngFor="let article of mArticles">
+    <mat-card-header>
+      <mat-card-title class="title">{{article.subject}}</mat-card-title>
+      <mat-card-subtitle  >{{article.writerFullName}}</mat-card-subtitle>
+      <mat-card-subtitle  >{{article.createdAt | date:'dd.MM.yyyy HH:mm:ss'}}</mat-card-subtitle>
+    </mat-card-header>
+
+    
+    <!-- <img mat-card-image class="img-article" src={{article.urlToImage}} alt=""> -->
+    <mat-card-content>
+      <p>
+        {{article.text}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="action-buttons">
+      <button mat-button color="white" *ngIf="!writerArticlesOnly" (click)="likeArticle(article.articleId)"><mat-icon>thumb_up_alt</mat-icon>{{article.likes}}</button>
+      <button *ngIf="article.writerId === userId" mat-button color="white" (click)="deleteArticle(article.articleId)"><mat-icon>delete</mat-icon>Delete</button>
+      <button *ngIf="article.writerId === userId" mat-button color="white" (click)="openEditDialog(article)"><mat-icon>edit</mat-icon>Edit</button>
+    </mat-card-actions>
+  </mat-card>
+  <div *ngIf="isFetchingInProgress" class="loading-indicator">
+    <mat-spinner diameter="50" mode="indeterminate"></mat-spinner>
+  </div>
+
+</mat-sidenav-container>
+
