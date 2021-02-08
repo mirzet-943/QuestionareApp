@@ -4,6 +4,7 @@ using MimeKit;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace NewsAPI.EmailFeatures
 {
@@ -33,8 +34,8 @@ namespace NewsAPI.EmailFeatures
         private MimeMessage CreateEmailMessage(Message message)
         {
             var emailMessage = new MimeMessage();
-            emailMessage.From.Add(new MailboxAddress(_emailConfig.From));
-            emailMessage.To.AddRange(message.To);
+            emailMessage.From.Add(new MailboxAddress("",_emailConfig.From));
+            emailMessage.To.AddRange(message.To);   
             emailMessage.Subject = message.Subject;
 
             var bodyBuilder = new BodyBuilder { HtmlBody = string.Format("<h2 style='color:red;'>{0}</h2>", message.Content) };

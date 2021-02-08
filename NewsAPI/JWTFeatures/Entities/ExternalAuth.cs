@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace NewsAPI.JWTFeatures.Entities
 {
-	public class ExternalAuthDto
+	public class ExternalAuth
 	{
 		public string Provider { get; set; }
 		public string IdToken { get; set; }
