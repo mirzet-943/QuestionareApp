@@ -48,7 +48,7 @@ namespace NewsAPI.Controllers
                 Email = s.Email,
                 FullName = s.FullName,
                 Gender = s.Gender
-            });
+            }).ToList();
 
             foreach (var item in items)
             {
