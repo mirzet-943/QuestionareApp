@@ -1,0 +1,33 @@
+<!--News Headlines header has a burger-style side-nav open button and a settings menu using a material icon-->
+<mat-toolbar color="primary">
+  <span>Questionare</span>
+  <span class="example-spacer"></span>
+</mat-toolbar>
+
+<div>
+  <br *ngIf="!questionareAuthorized" >You are not allowed to see the page!
+</div>
+
+<mat-sidenav-container *ngIf="!scoreVisible"  class="example-container">
+  <mat-card class="example-card" style="width: 100%;"  *ngFor="let question of mQuestions">
+    <mat-card-header>
+      <mat-card-title class="title">{{question.questionText}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-actions class="action-buttons">
+      <mat-select  [(ngModel)]="question.answer" [(value)]="question.answer">
+        <mat-option value="0">Strongly agree</mat-option>
+        <mat-option value="1">Agree</mat-option>
+        <mat-option value="2">Disagree</mat-option>
+        <mat-option value="3">Strongly disagree</mat-option>
+      </mat-select>
+    </mat-card-actions>
+  </mat-card>
+  <div *ngIf="isFetchingInProgress" class="loading-indicator">
+    <mat-spinner diameter="50" mode="indeterminate"></mat-spinner>
+  </div>
+</mat-sidenav-container>
+
+<h1 *ngIf="scoreVisible" style="text-align: center;">Your score is: </h1>
+<h1 *ngIf="scoreVisible" style="text-align: center;">{{TestScore}}</h1>
+
+<button *ngIf="questionareAuthorized && !scoreVisible" mat-button (click)="sendQuestionare()" style="background-color: #4CAF50; color: white; padding: 15px 32px; text-align: center; font-size: 16px; margin: 10px; right: auto;">Send answers</button>

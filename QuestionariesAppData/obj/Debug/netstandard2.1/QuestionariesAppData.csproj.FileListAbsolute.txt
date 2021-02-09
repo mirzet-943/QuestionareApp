@@ -1,0 +1,8 @@
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\obj\Debug\netstandard2.1\QuestionariesAppData.AssemblyInfoInputs.cache
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\obj\Debug\netstandard2.1\QuestionariesAppData.AssemblyInfo.cs
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\obj\Debug\netstandard2.1\QuestionariesAppData.csproj.CoreCompileInputs.cache
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\bin\Debug\netstandard2.1\QuestionariesAppData.deps.json
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\bin\Debug\netstandard2.1\QuestionariesAppData.dll
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\bin\Debug\netstandard2.1\QuestionariesAppData.pdb
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\obj\Debug\netstandard2.1\QuestionariesAppData.dll
+C:\Users\mirzet943\Documents\Visual Studio 2019\Projects\NewsApplication\QuestionareApp\NewsAppData\obj\Debug\netstandard2.1\QuestionariesAppData.pdb

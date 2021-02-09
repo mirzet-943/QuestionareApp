@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsAPI", "NewsAPI\NewsAPI.csproj", "{00D55119-E037-4A22-BE97-275CC1A92642}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionariesAPI", "QuestionariesAPI\QuestionariesAPI.csproj", "{00D55119-E037-4A22-BE97-275CC1A92642}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsAppData", "NewsAppData\NewsAppData.csproj", "{7B23D244-8F96-4ED7-9978-CF6EF9223E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionariesAppData", "QuestionariesAppData\QuestionariesAppData.csproj", "{7B23D244-8F96-4ED7-9978-CF6EF9223E87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

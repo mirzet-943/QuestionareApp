@@ -1,0 +1,10 @@
+Dear {0}, 
+
+We are sending you this message via email because owls are on hunger strike. Thank you again for applying for the junior spell caster position. As a part of our selection process, we send assignments to selected candidates, and you are one of them! 
+
+You can access and complete the assessment by clicking on the following {1} and entering pin: {2}
+
+If you have any other questions about the assignment, please don't hesitate to ask! Good luck with the assignment, and I am looking forward to reading your answers,
+
+Albus Dumbledore,
+Hogwarts

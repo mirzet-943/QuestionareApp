@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mirzet943\\Documents\\Visual Studio 2019\\Projects\\NewsApplication\\QuestionareApp\\NewsAppData\\QuestionariesAppData.csproj",
+      "projectUniqueName": "C:\\Users\\mirzet943\\Documents\\Visual Studio 2019\\Projects\\NewsApplication\\QuestionareApp\\QuestionariesAppData\\QuestionariesAppData.csproj",
       "projectName": "QuestionariesAppData",
-      "projectPath": "C:\\Users\\mirzet943\\Documents\\Visual Studio 2019\\Projects\\NewsApplication\\QuestionareApp\\NewsAppData\\QuestionariesAppData.csproj",
+      "projectPath": "C:\\Users\\mirzet943\\Documents\\Visual Studio 2019\\Projects\\NewsApplication\\QuestionareApp\\QuestionariesAppData\\QuestionariesAppData.csproj",
       "packagesPath": "C:\\Users\\mirzet943\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mirzet943\\Documents\\Visual Studio 2019\\Projects\\NewsApplication\\QuestionareApp\\NewsAppData\\obj\\",
+      "outputPath": "C:\\Users\\mirzet943\\Documents\\Visual Studio 2019\\Projects\\NewsApplication\\QuestionareApp\\QuestionariesAppData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mirzet943\\AppData\\Roaming\\NuGet\\NuGet.Config",

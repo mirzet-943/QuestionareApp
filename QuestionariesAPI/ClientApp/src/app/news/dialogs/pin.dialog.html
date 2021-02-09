@@ -1,0 +1,11 @@
+<h1 style="width: 100%;" mat-dialog-title>Please enter pin you received in Your email</h1>
+<div mat-dialog-content style="width: 100%;">
+  <mat-form-field >
+    <mat-label>Pin code:</mat-label>
+    <input matInput [(ngModel)]="data.pin">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Submit</button>
+</div>
